@@ -12,8 +12,7 @@ app.get('/',(req,res)=>{
 });
 
 app.post("/",(req,res)=>{
-
-    mail(req.email,req.Message)
+    mail(req.body.email,req.body.Message)
     .then(()=>console.log("Mailed"))
     .catch(err=>console.log(err));
     res.redirect('/');
