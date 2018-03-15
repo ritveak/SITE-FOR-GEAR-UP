@@ -1,6 +1,6 @@
 module.exports = {
 
-    email:'mockmailer@gmail.com',
+    email:'mockemailer@gmail.com',
     passwd:'mockmailer6969',
-    admin:'satyarth2404@gmail.com'
+    admin:'angad.sharma2017@vitstudent.ac.in'
 }
