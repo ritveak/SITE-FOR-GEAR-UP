@@ -8,7 +8,7 @@ module.exports = (from,text)=>{
             service:'gmail',
             auth:{
                 user:secret.email,
-                pass:secret.pass
+                pass:secret.passwd
             }
         });
 
