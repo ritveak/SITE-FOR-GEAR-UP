@@ -1,14 +1,13 @@
 const nodemailer = require('nodemailer');
-const secret = require('./secret')
+const secret = require('./secret');
 
 module.exports = (from,text)=>{
     return new Promise((resolve,reject)=>{
-
         const transporter = nodemailer.createTransport({
             service:'gmail',
             auth:{
                 user:secret.email,
-                pass:secret.pass
+                pass:secret.passwd
             }
         });
 
